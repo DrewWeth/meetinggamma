@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Identifier:</strong>
+  <%= @meeting.identifier %>
+</p>
+
+<p>
+  <strong>Filename:</strong>
+  <%= @meeting.filename %>
+</p>
+
+<p>
+  <strong>Logfilename:</strong>
+  <%= @meeting.logFilename %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @meeting.time %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @meeting.cost %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @meeting.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @meeting.email %>
+</p>
+
+<p>
+  <strong>worth:</strong>
+  <%= @meeting.worth %>
+</p>
+
+<p>
+  <strong>People:</strong>
+  <%= @meeting.people %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @meeting.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_meeting_path(@meeting) %> |
+<%= link_to 'Back', meetings_path %>
